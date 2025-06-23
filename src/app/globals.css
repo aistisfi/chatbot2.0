@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --light-color: #ecf0f1;
+  --dark-color: #2c3e50;
+  --success-color: #2ecc71;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: var(--dark-color);
+}
+
+header {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .chatContainer {
+    height: 80vh;
+  }
+
+  .message {
+    max-width: 90%;
+  }
+
+  /**/
+
+  .followUpOptions {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .followUpBtn {
+    padding: 10px 15px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .followUpBtn:hover {
+    background-color: #2980b9;
+    transform: translateX(5px);
+  }
+
+  .followUpBtn:nth-child(2) {
+    background-color: var(--primary-color);
+  }
+
+  .followUpBtn:nth-child(3) {
+    background-color: var(--accent-color);
+  }
+}
