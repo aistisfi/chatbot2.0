@@ -1,0 +1,16 @@
+.chatHeader {
+  background: linear-gradient(
+    135deg,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.chatHeader h2 {
+  font-size: 1.5rem;
+}
