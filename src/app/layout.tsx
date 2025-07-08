@@ -33,7 +33,7 @@ export default function RootLayout({
           <Container>
             <h1>Chatbot Especialista em ACCs</h1>
             <div className="subtitle">
-              Obtenha respostas precisas sobre Automação e Controle
+              Obtenha respostas precisas sobre ACCs
             </div>
 
           </Container>
