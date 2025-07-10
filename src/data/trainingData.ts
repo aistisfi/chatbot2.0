@@ -154,6 +154,14 @@ export const trainingData: trainingDataProps = {
     ],
     confidence: 0.7,
   },
+  : {
+        patterns: [ 
+              "Preciso validar minhas accs ?"
+          ], 
+        responses: [
+          "Sim! É importante validar suas horas de ACC, sendo esse um processo obrigatório para comprovação e quantificação de horas"
+          ]
+  },
   despedida: {
     patterns: [
       "tchau",
