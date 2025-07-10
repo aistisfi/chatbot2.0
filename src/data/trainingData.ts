@@ -154,13 +154,21 @@ export const trainingData: trainingDataProps = {
     ],
     confidence: 0.7,
   },
-  : {
+  fiz_um_curso: {
         patterns: [ 
-              "Preciso validar minhas accs ?"
+              "Fiz um curso de inglês, conta como acc ?"
           ], 
         responses: [
-          "Sim! É importante validar suas horas de ACC, sendo esse um processo obrigatório para comprovação e quantificação de horas"
+          "Sim! Além de obter um conhecimento enorme, fazer um curso também conta horas de ACC, basta enviar o certificado para ser analisado pela coordenação do curso. Deseja alguma ajuda nesse processo :)"
           ]
+  },
+  materia_optativa_vale_acc: {
+      patterns: [
+        "Materia optativa pode conta como acc ?"
+      ],
+      responses: [
+        "Sim! Caso já tenha cumprido sua carga horária do curso, matérias optativas podem ser convertidas para acc"
+      ]
   },
   despedida: {
     patterns: [
