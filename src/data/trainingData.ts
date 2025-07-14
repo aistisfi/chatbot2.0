@@ -164,12 +164,104 @@ export const trainingData: trainingDataProps = {
   },
   materia_optativa_vale_acc: {
       patterns: [
-        "Materia optativa pode conta como acc ?"
+        "Matéria optativa pode contar como acc ?"
       ],
       responses: [
-        "Sim! Caso já tenha cumprido sua carga horária do curso, matérias optativas podem ser convertidas para acc"
+        "Sim! Caso já tenha cumprido sua carga horária do curso, matérias optativas podem ser convertidas para horas de ACC", 
+        "Depende. Se você já cumpriu a carga horária de optativas do curso, essas matérias podem sim ser convertidas em horas de ACC."
       ]
   },
+  preciso_validar_accs: {
+    patterns: [
+      "Preciso validar minhas horas de acc ?"
+    ], 
+    responses: [
+      "Sim! Muitas horas de ACC são computadas sem a necessidade de envio de documentos por parte do(a)s estudantes. No entanto, em outros casos é preciso o envio de de documentação que comprove a realização da atividade para que assim seja computada as horas."
+    ]
+  }, 
+  que_documentos_enviar: {
+    patterns: [
+      "Quais documentos enviar para comprovar horas de acc?"
+    ], 
+    responses:[
+      "Há uma série de documentos que podem ser usados para a comprovação o mais comum é o envio de certificados, no entanto também podem ser enviados fotos e vídeos que comprovem. "
+    ]
+  }, 
+  dificuldade_em_conseguir_acc: {
+    patterns: [
+      "Estou tendo dificuldade em conseguir accs"
+    ], 
+    responses: [
+      "Sinto muito que isso esteja acontecendo! Mas com um bom planejamento você vai se sair muito bem! Entre em contato com seu/sua professor(a) orientador(a) para lhe indicar atividades que forneçam horas complementares. Tudo vale! Faça cursos, participe de eventos da atlética do seu curso e de projetos de extensão."
+    ]
+  },
+  acc_obrigatorio: {
+    patterns: [
+      "Horas de acc é obrigatório?"
+    ], 
+    responses: [
+      "Sim!!!! Em cada curso há uma carga horária minima de ACCs que devem ser cumpridas, caso contrário o(a) estudante não poderá se formar."
+    ]
+  }, 
+  prazo_para_validacao:{
+    patterns: [
+      "Qual o prazo máximo para validar horas de acc ?"
+    ], 
+    responses: [
+      "O(A) estudante tem até o final do curso para cumprir ou pedir validação de horas de ACCs. Quanto ao tempo que leva para a coordenação analisar tais horas ? Bom... Leva o tempo que for preciso :) Brincadeiras a parte não se te informar sobre o tempo que demanda esse processo, sendo bem variavel. Lembre-se não deixe tudo para a ultima hora :) Planejamento é vida!"
+    ]
+  }, 
+    e_difici_conseguir_horas:{
+    patterns: [
+      "É difícil conseguir horas de acc ?"
+    ], 
+    responses: [
+      "Não!!!!! Há muitas formas de conseguir horas de ACC, a dificuldade que muitos estudantes encontram quanto a cumprir essa carga está mais no mal planejamento. Se começar a juntas horas desde cedo não terá muito problema quanto a conseguir as horas necessárias. Seja ativo :)"
+    ]
+  }, 
+  quantas_horas_de_acc_preciso:{
+    patterns: [
+      "Quantas horas de acc preciso ?"
+    ], 
+    responses: [
+      "Depende do curso, mas de forma geral a forma mais simples de saber é: Acesse o Sigaa com seu login e senha, logo na primeira página haverá um campo chamado 'Integralizações' contendo as principais cargas horárias do curso incluindo as horas de ACC e extensão necessárias. Precisa de mais alguma ajuda ? :)"
+    ]
+  }, 
+      mudei_de_curso:{
+    patterns: [
+      "Mudei de curso posso reaproveitar horas de acc ?"
+    ], 
+    responses: [
+      "Talvez possa. Isso vai depender muito da natureza das atividades realizadas e da analise que será feita pela coordenação e colegiado. Confesso não ser inteligente o suficiente para  poder analisar tal natureza e lhe gerar um feedback da possibilidade de reaproveitamento. O correto é encontrar em contato com a coordenação do curso para sanar possíveis dúvidas."
+    ]
+  },  
+    em_que_grupo_devo_registrar_minhas_accs:{
+    patterns: [
+      "Em que grupo devo registrar minhas accs?"
+    ], 
+    responses: [
+      "Boa pergunta, muitos estudantes tem dúvida quanto a isso, no total existem 7 grupos diferentes, cada um englobando atividades conforme sua natureza. Por exemplo o grupo 1 enquadra as atividades com o teor de ensino. Poderia me dizer que atividade realizou ? Assim eu poderia indicar o grupo :)"
+    ]
+  }, 
+    atividades_do_grupo1:{
+    patterns: [
+      "Fiz um curso de japones, em que grupo se enquadra ?", 
+      "Concluir uma matéria optativa já tendo concluido a carga horário do curso, onde registro?", 
+      "Fui monitor monitora de uma disciplina ", 
+      "Fui tutor tutora fiz tutoria de um projeto", 
+      "Fui premiado premiada premiação em trabalho acadêmico", 
+      "Intercambio acadêmico", 
+      "Participei participação na semana de integração", 
+      "Certificação de proefiencia em lingua estrangeira", 
+      "Curso em escola de estudo temático",
+      "participo participação em grupo de estudos", 
+      "fui a uma visita tecnica, participei de visita tecnica", 
+      "Elaborei material didático"
+    ], 
+    responses: [
+      "De acordo com a descrição da sua atividade ela tem a natureza de ensino e deve ser enviada como pertencemte ao grupo 1!"
+    ]
+  }, 
   despedida: {
     patterns: [
       "tchau",
