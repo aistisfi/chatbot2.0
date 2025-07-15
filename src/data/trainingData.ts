@@ -41,7 +41,24 @@ export const trainingData: trainingDataProps = {
       "ACCs representam Atividades Curriculares Complementares, essenciais para o desenvolvimento de competências além da sala de aula.",
     ],
     confidence: 0.95,
+  }, 
+  certificado_grupo2: {
+      patterns: [ 
+           "Publiquei um artigo cientifico, onde registro?"
+        ], 
+    responses: [
+          "Registre no grupo 2 pesquisa e desenvolvimento"
+      ]
   },
+  certificado_grupo1: {
+      patterns: [ 
+           "Ganhei um certificado de um cursp, onde registro?"
+        ], 
+    responses: [
+          "Registre no grupo 1 como atividade de ensino :)"
+      ]
+  },
+
   como_obter_accs: {
     patterns: [
       "como obter accs",
