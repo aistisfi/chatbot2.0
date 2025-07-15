@@ -169,6 +169,14 @@ export const trainingData: trainingDataProps = {
       responses: [
         "Sim! Caso já tenha cumprido sua carga horária do curso, matérias optativas podem ser convertidas para acc"
       ]
+  }, 
+  certificado_grupo1: {
+      patterns: [ 
+           "Publiquei um artigo cientifico, onde registro?"
+        ], 
+    responses: [
+          "Registre no grupo 2 pesquisa e desenvolvimento"
+      ]
   },
   despedida: {
     patterns: [
