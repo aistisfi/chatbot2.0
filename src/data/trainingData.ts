@@ -49,14 +49,6 @@ export const trainingData: trainingDataProps = {
       "onde pegar accs",
       "formas de obter accs",
     ],
-   exemplo_de_como_conseguir_acc: {
-      patterns: [ 
-            "Me de um exemplo de como conseguir horas de acc"
-        ], 
-      responses: [
-          "Procure o seu/sua professor(a) orientador(a) para indicar e explicar melhor sobre ACC e atividades extracurriculares que oferecem horas de ACC como estágios e eventos que promovem horas de ACC"
-        ]
-  },
     responses: [
       "Você pode obter ACCs participando de: eventos acadêmicos, cursos extracurriculares, projetos de pesquisa, atividades de extensão ou estágios não obrigatórios.",
       "As ACCs podem ser conquistadas através de diversas atividades: palestras, workshops, publicações, participação em empresas júnior ou competições acadêmicas.",
@@ -64,6 +56,16 @@ export const trainingData: trainingDataProps = {
     ],
     confidence: 0.9,
   },
+
+  exemplo_de_como_conseguir_acc: {
+      patterns: [ 
+            "Me de um exemplo de como conseguir horas de acc"
+        ], 
+      responses: [
+          "Procure o seu/sua professor(a) orientador(a) para indicar e explicar melhor sobre ACC e atividades extracurriculares que oferecem horas de ACC como estágios e eventos que promovem horas de ACC"
+        ]
+  },
+  
   validar_accs: {
     patterns: [
       "validar accs",
