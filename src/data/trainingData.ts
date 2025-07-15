@@ -63,7 +63,8 @@ export const trainingData: trainingDataProps = {
         ], 
       responses: [
           "Procure o seu/sua professor(a) orientador(a) para indicar e explicar melhor sobre ACC e atividades extracurriculares que oferecem horas de ACC como estágios e eventos que promovem horas de ACC"
-        ]
+        ], 
+      confidence: 0.9,
   },
   
   validar_accs: {
