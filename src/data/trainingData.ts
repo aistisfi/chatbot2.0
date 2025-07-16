@@ -274,86 +274,125 @@ extensao_acc: {
     "Não é permitido usar a mesma atividade em múltiplos grupos. Consulte a coordenação para casos específicos."
   ],
 },
-
-  grupo1_ensino_acc: {
+// 1. Disciplinas optativas
+disciplina_optativa_acc: {
   patterns: [
-    // Disciplinas e cursos
     "Onde registro matéria optativa como ACC?",
-    "Disciplina de outro curso pode contar como ACC?",
-    "Curso de extensão presencial vale como ACC?",
-    "Curso online síncrono conta para ACC?",
-    "Curso EAD pode ser usado como ACC?",
-    "Quantas horas de ACC vale um curso de 30h?",
-    "Workshop técnico entra em qual grupo de ACC?",
-
-    // Monitoria e tutoria
-    "Monitoria em disciplina conta como ACC?",
-    "Quantas horas de ACC ganho por semestre de monitoria?",
-    "Tutoria em projeto educacional vale ACC?",
-    "Monitoria voluntária pode ser ACC?",
-
-    // Eventos acadêmicos
-    "Participação em Semana de Integração vale ACC?",
-    "Onde registro certificado de palestra?",
-    "Escola de Estudos Temáticos conta como ACC?",
-    "Participação como ouvinte em congresso vale ACC?",
-    "Certificado de evento acadêmico internacional conta?",
-    "Evento regional pode ser ACC?",
-
-    // Idiomas
-    "Certificado de proficiência em inglês vale quantas horas?",
-    "TOEFL pode ser usado como ACC?",
-    "IELTS conta como atividade complementar?",
-
-    // Grupos e estudos
-    "Participação em grupo de estudo vale ACC?",
-    "Quantas horas de ACC ganho por grupo de estudo?",
-
-    // Visitas técnicas
-    "Visita técnica extracurriculular conta como ACC?",
-    "Como comprovar visita técnica para ACC?",
-
-    // Materiais didáticos
-    "Desenvolvi um aplicativo educativo, conta como ACC?",
-    "Elaboração de material didático vale quantas horas?",
-    "Criação de jogo educacional pode ser ACC?",
-
-    // Mobilidade
-    "Intercâmbio acadêmico vale como ACC?",
-    "Quantas horas de ACC ganho por mobilidade estudantil?",
-
-    // Premiações
-    "Ganhei prêmio em competição acadêmica, conta como ACC?",
-    "Premiação de trabalho de ensino vale quantas horas?"
+    "Disciplina eletiva pode contar como ACC?",
+    "Matéria não obrigatória vale para ACC?"
   ],
   responses: [
-    // Disciplinas e cursos
-    "Matérias optativas: registre no Grupo 1 (50% da carga total de ACC). Carga horária integral da disciplina.",
-    "Cursos presenciais: 1h de ACC para cada 1h de curso (até 20% da carga total).",
-    "Cursos online síncronos: 1h de ACC para cada 1h (15% do total). Cursos EAD: 1h para 1h (10%).",
-
-    // Monitoria e tutoria
-    "Monitoria: 1h de ACC para cada 8h de atividade (até 60% do total). Comprove via declaração da coordenação.",
-    "Tutoria em projetos: mesma equivalência que monitoria.",
-
-    // Eventos acadêmicos
-    "Eventos como ouvinte: 1h de ACC para cada 1h de participação (até 30% do total). Palestras: 1h para 1h (20%).",
-    "Semana de Integração: 1h de ACC para cada 2h (até 10% do total).",
-
-    // Idiomas
-    "Proficiência comprovada (TOEFL/IELTS): 40h de ACC (até 50% do total). Apresente certificado oficial.",
-
-    // Grupos e visitas
-    "Grupo de estudo: 1h de ACC para cada 2h (20% do total). Visitas técnicas: 1h por atividade (10%).",
-
-    // Materiais didáticos
-    "Materiais didáticos (apps, jogos): 30h por produto (até 50% do total). Comprove com relatório técnico.",
-
-    // Mobilidade e premiações
-    "Intercâmbio: 5h de ACC para cada 15h de atividade (60% do total). Premiações: 10h por título (20%)."
+    "Disciplinas optativas podem ser validadas no **Grupo 1**. Você recebe 1h de ACC para cada 1h da disciplina (até 50% da carga total de ACC). Registre no SIGAA com o histórico escolar."
   ],
 },
-  
+
+// 2. Cursos presenciais
+cursos_presenciais_acc: {
+  patterns: [
+    "Curso presencial técnico conta como ACC?",
+    "Workshop presencial pode ser ACC?",
+    "Onde registro curso extracurricular presencial?"
+  ],
+  responses: [
+    "Cursos presenciais valem **1h de ACC para cada 1h de atividade** (Grupo 1, até 20% do total). Comprove com certificado contendo carga horária."
+  ],
+},
+
+// 3. Cursos online síncronos
+cursos_online_sincronos_acc: {
+  patterns: [
+    "Curso online ao vivo vale como ACC?",
+    "Webinar síncrono pode ser ACC?",
+    "Onde registro curso online com horário fixo?"
+  ],
+  responses: [
+    "Cursos online síncronos valem **1h de ACC para cada 1h de atividade** (Grupo 1, até 15% do total). Envie o certificado com carga horária no SIGAA."
+  ],
+},
+
+// 4. Cursos EAD
+cursos_ead_acc: {
+  patterns: [
+    "Curso a distância conta como ACC?",
+    "EAD pode ser usado para ACC?",
+    "Como comprovar curso online assíncrono?"
+  ],
+  responses: [
+    "Cursos EAD valem **1h de ACC para cada 1h de atividade** (Grupo 1, até 10% do total). Certificados devem comprovar carga horária e conteúdo."
+  ],
+},
+
+// 5. Monitoria
+monitoria_acc: {
+  patterns: [
+    "Monitoria em disciplina vale ACC?",
+    "Quantas horas de ACC ganho com monitoria?",
+    "Onde registro minha monitoria como ACC?"
+  ],
+  responses: [
+    "Monitoria vale **1h de ACC para cada 8h de atividade** (Grupo 1, até 60% do total). Comprove com declaração da coordenação do curso."
+  ],
+},
+
+// 6. Tutoria
+tutoria_acc: {
+  patterns: [
+    "Tutoria em projeto vale como ACC?",
+    "Onde registro horas de tutoria?",
+    "Ajuda a colegas pode contar como ACC?"
+  ],
+  responses: [
+    "Tutoria em projetos educacionais vale **1h de ACC para cada 8h de atividade** (Grupo 1, até 60% do total)."
+  ],
+},
+
+// 7. Semana de Integração
+semana_integracao_acc: {
+  patterns: [
+    "Participação na Semana de Integração vale ACC?",
+    "Onde registro presença em evento da UFOB?",
+    "SIU conta como atividade complementar?"
+  ],
+  responses: [
+    "Participação na Semana de Integração vale **1h de ACC para cada 2h de atividade** (Grupo 1, até 10% do total)."
+  ],
+},
+
+// 8. Palestras
+palestras_acc: {
+  patterns: [
+    "Palestra conta como ACC?",
+    "Onde registro certificado de palestra?",
+    "Participação em talk vale ACC?"
+  ],
+  responses: [
+    "Palestras valem **1h de ACC para cada 1h de atividade** (Grupo 1, até 20% do total). Comprove com certificado."
+  ],
+},
+
+// 9. Eventos como ouvinte
+eventos_ouvinte_acc: {
+  patterns: [
+    "Participação em congresso como ouvinte vale ACC?",
+    "Onde registro evento acadêmico que participei?",
+    "Certificado de participação em seminário conta?"
+  ],
+  responses: [
+    "Participação como ouvinte em eventos vale **1h de ACC para cada 1h de atividade** (Grupo 1, até 30% do total)."
+  ],
+},
+
+// 10. Proficiência em idiomas
+proficiencia_idiomas_acc: {
+  patterns: [
+    "TOEFL/IELTS vale como ACC?",
+    "Onde registro certificado de inglês?",
+    "Prova de proficiência conta para ACC?"
+  ],
+  responses: [
+    "Certificados de proficiência (TOEFL, IELTS, etc.) valem **40h de ACC** (Grupo 1, até 50% do total)."
+  ],
+},
   despedida: {
     patterns: [
       "tchau",
