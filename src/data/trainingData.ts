@@ -171,7 +171,7 @@ export const trainingData: trainingDataProps = {
           ], 
         responses: [
           "Sim! Além de obter um conhecimento enorme, fazer um curso também conta horas de ACC, basta enviar o certificado para ser analisado pela coordenação do curso. Deseja alguma ajuda nesse processo :)"
-          ]
+          ],
   },
   materia_optativa_vale_acc: {
       patterns: [
@@ -179,8 +179,102 @@ export const trainingData: trainingDataProps = {
       ],
       responses: [
         "Sim! Caso já tenha cumprido sua carga horária do curso, matérias optativas podem ser convertidas para acc"
-      ]
+      ],
   },
+ensino_acc: {
+  patterns: [
+    "Onde registro disciplina optativa como ACC?",
+    "Matéria eletiva pode contar como ACC?",
+    "Curso online vale como ACC?",
+    "Monitoria conta para ACC?",
+    "Como comprovar carga horária de curso extracurricular?",
+    "Participação em Semana de Integração vale ACC?"
+  ],
+  responses: [
+    "Disciplinas optativas podem ser validadas no **Grupo 1 (Atividades de Ensino)**, desde que não tenham sido usadas para integralizar seu curso. Cursos online têm percentuais específicos (verifique o Barema).",
+    "Monitorias valem ACC no Grupo 1: 1h de ACC para cada 8h de atividade (até 60% da carga total).",
+    "Eventos como a Semana de Integração valem ACC: 1h de ACC para cada 2h de participação (máximo 10% da carga horária total)."
+  ],
+},
+  pesquisa_acc: {
+  patterns: [
+    "Publicação de artigo conta como ACC?",
+    "Onde registro iniciação científica?",
+    "Apresentação de pôster em evento vale ACC?",
+    "Como comprovar participação em grupo de pesquisa?",
+    "Premiação em trabalho acadêmico vale ACC?"
+  ],
+  responses: [
+    "Artigos publicados valem **30h de ACC (Grupo 2)**. Resumos em eventos valem 5h. Iniciação científica: 5h/mês (até 60% da carga total).",
+    "Apresentações em eventos: 5h (regional) ou 10h (nacional/internacional)."
+  ],
+},
+extensao_acc: {
+  patterns: [
+    "Projeto de extensão pode ser ACC?",
+    "Onde registro ação social como ACC?",
+    "Publicação de trabalho extensionista vale?",
+    "Participação em evento de extensão conta?"
+  ],
+  responses: [
+    "Projetos de extensão valem **1h de ACC para cada 2h de atividade (Grupo 3, até 60%)**. Publicações relacionadas valem 5h (resumo) ou 20h (artigo)."
+  ],
+},
+  representacao_acc: {
+  patterns: [
+    "Participação em Centro Acadêmico vale ACC?",
+    "Onde registro minha atuação no DCE?",
+    "Representação em conselho conta como ACC?"
+  ],
+  responses: [
+    "Atividades de representação (DCE, Centros Acadêmicos) valem **5h/mês (Grupo 4)**, com limites de 20% a 40% da carga total."
+  ],
+},
+  trabalho_acc: {
+  patterns: [
+    "Estágio não obrigatório pode ser ACC?",
+    "Empresa júnior conta como ACC?",
+    "Como comprovar atividades profissionais para ACC?"
+  ],
+  responses: [
+    "Estágios não obrigatórios valem **10h/mês (Grupo 5, até 30%)**. Participação em empresa júnior: 5h/mês."
+  ],
+},
+  integracao_acc: {
+  patterns: [
+    "PET pode ser ACC?",
+    "Onde registro residência pedagógica?",
+    "Participação em liga acadêmica vale ACC?"
+  ],
+  responses: [
+    "Programas como PET ou residência pedagógica valem **7h/mês (Grupo 6, até 60%)**. Ligas acadêmicas: 1h/mês."
+  ],
+},
+  cultura_acc: {
+  patterns: [
+    "Participação em evento esportivo vale ACC?",
+    "Onde registro trabalho artístico como ACC?",
+    "Ações voluntárias contam para ACC?",
+    "Certificado de palestra cultural pode ser ACC?"
+  ],
+  responses: [
+    "Eventos esportivos valem **1h de ACC para cada 5h de atividade (Grupo 7)**. Trabalhos artísticos: 2h por apresentação. Ações voluntárias: 5h por atividade (verifique o limite de 20%)."
+  ],
+},
+  geral_acc: {
+  patterns: [
+    "Quantas horas de ACC preciso cumprir?",
+    "Posso usar atividades antigas para ACC?",
+    "Como registro minhas ACCs no SIGAA?",
+    "Qual o prazo para enviar comprovantes?",
+    "Posso usar a mesma atividade em mais de um grupo?"
+  ],
+  responses: [
+    "São **60h obrigatórias** de ACC. Atividades devem ser realizadas durante o curso e registradas no SIGAA até o último semestre.",
+    "Não é permitido usar a mesma atividade em múltiplos grupos. Consulte a coordenação para casos específicos."
+  ],
+},
+  
   despedida: {
     patterns: [
       "tchau",
