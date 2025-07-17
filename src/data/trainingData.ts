@@ -981,7 +981,7 @@ cultura_popular_acc: {
 },
 
 // 20. Esporte comunitário
-esporte_comunitario_acc: {
+esporte_comunitario_acc1: {
   patterns: [
     "Projeto esportivo social vale ACC?",
     "Onde registrar escolinha esportiva?",
@@ -1208,7 +1208,7 @@ entidades_civis_acc: {
 },
 
 // 9. Grêmios Estudantis
-gremios_estudantis_acc: {
+gremios_estudantis_acc1: {
   patterns: [
     "Participação em grêmio vale ACC?",
     "Onde registrar minha função no grêmio?",
@@ -1220,7 +1220,7 @@ gremios_estudantis_acc: {
 },
 
 // 10. Parlamento Estudantil
-parlamento_estudantil_acc: {
+parlamento_estudantil_acc1: {
   patterns: [
     "Participação em parlamento estudantil vale ACC?",
     "Onde registrar meu mandato como parlamentar?",
