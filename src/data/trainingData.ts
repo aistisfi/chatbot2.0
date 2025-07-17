@@ -765,7 +765,7 @@ projetos_extensao_acc: {
 },
 
 // 2. Cursos de extensão
-cursos_extensao_acc: {
+cursos_extensao_acc1: {
   patterns: [
     "Curso de extensão conta como ACC?",
     "Oficina para comunidade vale ACC?",
