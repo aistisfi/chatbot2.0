@@ -646,7 +646,7 @@ pesquisa_colaborativa_acc: {
 },
 
 // 22. Pesquisa de inovação
-pesquisa_inovacao_acc: {
+pesquisa_inovacao_acc1: {
   patterns: [
     "Pesquisa em inovação vale ACC?",
     "Onde registrar projeto inovador?",
