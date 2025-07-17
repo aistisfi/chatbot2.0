@@ -1556,7 +1556,7 @@ trabalho_freelancer_acc: {
 },
 
 // 8. Empreendedorismo
-empreendedorismo_acc: {
+empreendedorismo_acc2: {
   patterns: [
     "Meu negócio próprio vale ACC?",
     "Onde registrar minha startup?",
