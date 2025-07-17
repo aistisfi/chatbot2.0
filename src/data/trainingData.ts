@@ -2551,7 +2551,929 @@ intervencoes_urbanas_acc: {
   ],
 },
 
+  // GRUPO 1 - ENSINO
+grupo1_ensino_acc: {
+  patterns: [
+    "O que é o Grupo 1 de ACC?",
+    "Para que serve o Grupo 1?",
+    "Quais atividades são do Grupo 1?"
+  ],
+  responses: [
+    "**Grupo 1 - Atividades de Ensino**: Inclui disciplinas optativas não utilizadas no curso, cursos extracurriculares (presenciais, EAD ou online), monitorias, participação em eventos acadêmicos como semanas de integração, e certificados de proficiência em idiomas. Exemplos: \n- Curso de inglês online \n- Monitoria em disciplina \n- Participação como ouvinte em congresso"
+  ],
+},
 
+// GRUPO 2 - PESQUISA
+grupo2_pesquisa_acc: {
+  patterns: [
+    "O que é o Grupo 2 de ACC?",
+    "Para que serve o Grupo 2?",
+    "Quais atividades são do Grupo 2?"
+  ],
+  responses: [
+    "**Grupo 2 - Pesquisa e Inovação**: Abrange iniciação científica, publicações (artigos, resumos, livros), apresentações em eventos, desenvolvimento de produtos tecnológicos e participação em grupos de pesquisa. Exemplos: \n- Artigo publicado em revista \n- Participação em PIBIC \n- Apresentação de pôster em seminário"
+  ],
+},
+
+// GRUPO 3 - EXTENSÃO
+grupo3_extensao_acc: {
+  patterns: [
+    "O que é o Grupo 3 de ACC?",
+    "Para que serve o Grupo 3?",
+    "Quais atividades são do Grupo 3?"
+  ],
+  responses: [
+    "**Grupo 3 - Extensão**: Contempla projetos sociais, cursos comunitários, ações de voluntariado, produção de materiais extensionistas e atividades que integram universidade-sociedade. Exemplos: \n- Projeto de alfabetização \n- Mutirão de saúde \n- Oficina para idosos"
+  ],
+},
+
+// GRUPO 4 - REPRESENTAÇÃO
+grupo4_representacao_acc: {
+  patterns: [
+    "O que é o Grupo 4 de ACC?",
+    "Para que serve o Grupo 4?",
+    "Quais atividades são do Grupo 4?"
+  ],
+  responses: [
+    "**Grupo 4 - Representação Estudantil**: Inclui atuação em órgãos colegiados, DCE, Centros Acadêmicos, atléticas, comissões e representação em entidades civis. Exemplos: \n- Membro do CA \n- Representante no Conselho Universitário \n- Diretor de Atlética"
+  ],
+},
+
+// GRUPO 5 - TRABALHO
+grupo5_trabalho_acc: {
+  patterns: [
+    "O que é o Grupo 5 de ACC?",
+    "Para que serve o Grupo 5?",
+    "Quais atividades são do Grupo 5?"
+  ],
+  responses: [
+    "**Grupo 5 - Iniciação ao Trabalho**: Engloba estágios não obrigatórios, empresas júnior, trabalho voluntário, empreendedorismo e experiências profissionais relacionadas à área de formação. Exemplos: \n- Estágio em empresa \n- Participação em EJ \n- Projeto freelancer na área"
+  ],
+},
+
+// GRUPO 6 - INTEGRAÇÃO
+grupo6_integracao_acc: {
+  patterns: [
+    "O que é o Grupo 6 de ACC?",
+    "Para que serve o Grupo 6?",
+    "Quais atividades são do Grupo 6?"
+  ],
+  responses: [
+    "**Grupo 6 - Integração Ensino-Pesquisa-Extensão**: Inclui PET, residências pedagógicas, projetos interdisciplinares, incubadoras e atividades que combinam as três dimensões acadêmicas. Exemplos: \n- Projeto PET \n- Residência Pedagógica \n- Laboratório interdisciplinar"
+  ],
+},
+
+// GRUPO 7 - CULTURA/ESPORTE
+grupo7_cultura_esporte_acc: {
+  patterns: [
+    "O que é o Grupo 7 de ACC?",
+    "Para que serve o Grupo 7?",
+    "Quais atividades são do Grupo 7?"
+  ],
+  responses: [
+    "**Grupo 7 - Cultura, Esporte e Solidariedade**: Abrange competições esportivas, produções artísticas, ações de inclusão, voluntariado e projetos que promovem diversidade. Exemplos: \n- Time universitário \n- Oficina de teatro \n- Projeto com refugiados"
+  ],
+}, 
+
+  // 1. DOCUMENTAÇÃO GERAL
+documentacao_geral_acc: {
+  patterns: [
+    "Como comprovar minhas ACCs?",
+    "Quais documentos preciso para validar ACC?",
+    "Onde vejo a lista de documentos aceitos?"
+  ],
+  responses: [
+    "Você precisa de documentos oficiais com: \n- Nome completo \n- Carga horária \n- Assinatura do responsável \n- Período de realização \nExemplos: certificados, declarações, contratos ou publicações com ISSN/ISBN."
+  ],
+},
+
+// 2. PRAZOS
+prazos_acc: {
+  patterns: [
+    "Qual o prazo para enviar documentos?",
+    "Até quando posso registrar ACC?",
+    "Posso enviar comprovantes depois de formado?"
+  ],
+  responses: [
+    "O registro deve ser feito **durante o curso**, preferencialmente até o 2º semestre do último ano. Documentos só são aceitos após a colação em casos excepcionais, mediante análise."
+  ],
+},
+
+// 3. ENVIO DE DOCUMENTOS
+envio_documentos_acc: {
+  patterns: [
+    "Como enviar meus comprovantes?",
+    "Onde subir os documentos das ACCs?",
+    "É pelo SIGAA o envio?"
+  ],
+  responses: [
+    "Envie pelo **SIGAA > Menu Atividades Complementares**: \n1. Acesse 'Lançamento de ACC' \n2. Selecione o grupo correto \n3. Anexe os arquivos em PDF/JPEG (máx. 2MB cada) \n4. Preencha os metadados solicitados"
+  ],
+},
+
+// 4. HOMOLOGAÇÃO
+homologacao_acc: {
+  patterns: [
+    "Quem aprova minhas ACCs?",
+    "Para quem enviar os documentos?",
+    "Qual setor analisa as atividades?"
+  ],
+  responses: [
+    "A análise é feita pela **Coordenação de Curso**. Em caso de dúvidas, contate: \n- coordenacao@seucurso.ufob.edu.br \n- Ou presencialmente na secretaria do seu departamento"
+  ],
+},
+
+// 5. CARGA HORÁRIA
+carga_horaria_acc: {
+  patterns: [
+    "Quantas horas de ACC preciso?",
+    "Qual a carga horária obrigatória?",
+    "Quantas horas faltam para completar minhas ACCs?"
+  ],
+  responses: [
+    "São necessárias **60 horas totais**, distribuídas entre os 7 grupos. Verifique seu histórico no SIGAA para acompanhar as horas já validadas."
+  ],
+},
+
+// 6. LIMITES POR GRUPO
+limites_grupos_acc: {
+  patterns: [
+    "Posso usar só um grupo para todas minhas ACCs?",
+    "Tem limite por categoria?",
+    "Quantas horas posso colocar em cada grupo?"
+  ],
+  responses: [
+    "Sim, há limites por grupo (ex: máximo 60% em pesquisa). Consulte o 'Barema de ACC' no site da UFOB ou no anexo da Resolução CCET 01/2023."
+  ],
+},
+
+// 7. ATIVIDADES EXTERNAS
+atividades_externas_acc: {
+  patterns: [
+    "Atividades de outras instituições valem?",
+    "Cursos do SENAI contam como ACC?",
+    "Eventos fora da UFOB são aceitos?"
+  ],
+  responses: [
+    "Sim, desde que: \n- Sejam de instituições reconhecidas \n- Estejam relacionados à sua formação \n- Tenham documentação válida (com carga horária e conteúdo programático)"
+  ],
+},
+
+// 8. ERROS NO ENVIO
+erros_envio_acc: {
+  patterns: [
+    "Enviei o documento errado, e agora?",
+    "Como corrigir um comprovante enviado?",
+    "Fiz upload de arquivo incorreto"
+  ],
+  responses: [
+    "Solicite a correção via: \n1. SIGAA > Abra o registro incorreto \n2. Clique em 'Solicitar Retificação' \n3. Aguarde a reprovação do documento \n4. Reenvie o arquivo correto"
+  ],
+},
+
+// 9. PRAZO DE ANÁLISE
+prazo_analise_acc: {
+  patterns: [
+    "Quanto tempo demora a análise?",
+    "Quando saberei se foi aprovado?",
+    "Demora muito para validarem?"
+  ],
+  responses: [
+    "O prazo médio é de **20 dias úteis**. Acompanhe no SIGAA: \n'Consultar Atividades > Situação'. Em caso de atraso, contate a coordenação."
+  ],
+},
+
+// 10. RECUSAS
+documentos_recusados_acc: {
+  patterns: [
+    "Meu documento foi recusado, o que fazer?",
+    "Por que rejeitaram meu certificado?",
+    "Motivos para recusa de ACC?"
+  ],
+  responses: [
+    "Os motivos comuns são: \n- Carga horária não declarada \n- Documento ilegível \n- Atividade fora do prazo \n- Grupo incorreto \nCorrija e reenvie pelo mesmo processo."
+  ],
+},
+
+// 11. ATIVIDADES ANTERIORES
+atividades_anteriores_acc: {
+  patterns: [
+    "Posso usar atividades do ensino médio?",
+    "Cursos feitos antes da faculdade valem?",
+    "Eventos antigos contam como ACC?"
+  ],
+  responses: [
+    "Não. Só atividades realizadas **durante o curso superior** são válidas, exceto intercâmbios ou cursos de idiomas concluídos até 2 anos antes do ingresso."
+  ],
+},
+
+// 12. DUPLICIDADE
+duplicidade_acc: {
+  patterns: [
+    "Posso usar a mesma atividade em dois grupos?",
+    "Publicação vale para pesquisa e extensão?",
+    "Duplicar horas é permitido?"
+  ],
+  responses: [
+    "Não. Cada atividade só pode ser contabilizada **em um grupo**. Escolha o mais adequado."
+  ],
+},
+
+// 13. CERTIFICADOS ONLINE
+certificados_online_acc: {
+  patterns: [
+    "Cursos de plataformas online valem?",
+    "Coursera/Udemy conta como ACC?",
+    "Como comprovar curso EAD?"
+  ],
+  responses: [
+    "Sim, desde que: \n- Tenham carga horária mínima de 10h \n- Emitam certificado com código de validação \n- Sejam de instituições reconhecidas"
+  ],
+},
+
+// 14. ATIVIDADES REMUNERADAS
+atividades_remuneradas_acc: {
+  patterns: [
+    "Trabalho remunerado pode ser ACC?",
+    "Estágio remunerado conta?",
+    "Atividade paga vale como complementar?"
+  ],
+  responses: [
+    "Sim, não há distinção entre atividades remuneradas ou não. O importante é a relação com sua formação e a documentação comprobatória."
+  ],
+},
+
+// 15. HORAS POR SEMESTRE
+horas_semestre_acc: {
+  patterns: [
+    "Quantas horas posso fazer por semestre?",
+    "Tem limite de ACC por período?",
+    "Posso fazer todas as horas no último ano?"
+  ],
+  responses: [
+    "Não há limite por semestre, mas recomenda-se distribuir as atividades ao longo do curso. No último ano, só são aceitas atividades com conclusão até 6 meses antes da colação."
+  ],
+},
+
+// 16. VALIDAÇÃO PARCIAL
+validacao_parcial_acc: {
+  patterns: [
+    "Pode validar só parte da carga horária?",
+    "Se o curso tiver 100h, valem todas?",
+    "A UFOB reduz horas de atividades externas?"
+  ],
+  responses: [
+    "Sim, algumas atividades têm conversão parcial (ex: 1h ACC = 2h de extensão). Consulte a tabela de equivalência no regulamento."
+  ],
+},
+
+// 17. ATIVIDADES INTERNACIONAIS
+atividades_internacionais_acc: {
+  patterns: [
+    "Como validar atividades no exterior?",
+    "Eventos internacionais contam?",
+    "Documentos em inglês são aceitos?"
+  ],
+  responses: [
+    "Sim, documentos internacionais são válidos. Se não estiverem em português, anexe: \n- Documento original \n- Tradução simples (não precisa ser juramentada)"
+  ],
+},
+
+// 18. MUDANÇA DE CURSO
+mudanca_curso_acc: {
+  patterns: [
+    "Se trocar de curso, perco as ACCs?",
+    "Atividades do curso anterior valem?",
+    "Como fica ACC na transferência?"
+  ],
+  responses: [
+    "Atividades compatíveis com a nova matriz curricular podem ser validadas. Solicite análise à nova coordenação com os documentos originais."
+  ],
+},
+
+// 19. ALUNOS ESPECIAIS
+alunos_especiais_acc: {
+  patterns: [
+    "Aluno especial pode fazer ACC?",
+    "Como fica ACC para quem trancou?",
+    "Atividades no período trancado contam?"
+  ],
+  responses: [
+    "Só atividades realizadas em períodos de matrícula ativa são válidas. Alunos especiais devem consultar a coordenação para casos excepcionais."
+  ],
+},
+
+// 20. EMERGÊNCIAS
+emergencias_acc: {
+  patterns: [
+    "Perdi meu certificado, e agora?",
+    "Documento foi perdido, como proceder?",
+    "Como recuperar comprovante de ACC?"
+  ],
+  responses: [
+    "Solicite: \n- 2ª via à instituição emissora \n- Ou apresente declaração com firma reconhecida \n- Em último caso, apresente cópias ou registros digitais (como e-mails oficiais)"
+  ],
+},
+
+// 21. ATIVIDADES NÃO LISTADAS
+atividades_nao_listadas_acc: {
+  patterns: [
+    "Minha atividade não está no regulamento, vale?",
+    "Como propor nova atividade para ACC?",
+    "Atividade inovadora pode ser aceita?"
+  ],
+  responses: [
+    "Atividades não listadas podem ser validadas mediante: \n- Relatório detalhado \n- Justificativa de relevância \n- Aprovação do colegiado do curso"
+  ],
+},
+
+// 22. ESTÁGIO OBRIGATÓRIO
+estagio_obrigatorio_acc: {
+  patterns: [
+    "Estágio obrigatório conta como ACC?",
+    "Posso usar horas de estágio curricular?",
+    "Atividade obrigatória vale como complementar?"
+  ],
+  responses: [
+    "Não. Atividades obrigatórias da matriz curricular não podem ser usadas como ACC, apenas estágios/extras não obrigatórios."
+  ],
+},
+
+// 23. ATIVIDADES RELIGIOSAS
+atividades_religiosas_acc: {
+  patterns: [
+    "Atividade em igreja vale ACC?",
+    "Trabalho voluntário religioso conta?",
+    "Grupo de jovens pode ser ACC?"
+  ],
+  responses: [
+    "Só se tiver **relação direta com sua formação** e comprovação de impacto social. Atividades meramente doutrinárias não são aceitas."
+  ],
+},
+
+// 24. CURSOS DE EXTENSÃO
+cursos_extensao_acc: {
+  patterns: [
+    "Curso de extensão da UFOB vale ACC?",
+    "Como registrar curso da própria universidade?",
+    "Atividade de extensão interna conta?"
+  ],
+  responses: [
+    "Sim, cursos de extensão da UFOB são válidos. Eles são automaticamente registrados no seu histórico se concluídos corretamente."
+  ],
+},
+
+// 25. ATIVIDADES POLÍTICAS
+atividades_politicas_acc: {
+  patterns: [
+    "Participação em partido vale ACC?",
+    "Ativismo político conta como complementar?",
+    "Movimento estudantil não institucionalizado é ACC?"
+  ],
+  responses: [
+    "Não. Atividades partidárias ou militância política não são consideradas ACC, mesmo que relacionadas a causas sociais."
+  ],
+},
+
+  // 26. EQUIVALÊNCIA DE HORAS
+equivalencia_horas_acc: {
+  patterns: [
+    "Como calculam as horas de ACC?",
+    "1 hora de atividade vale 1 hora de ACC?",
+    "Tem conversão de horas?"
+  ],
+  responses: [
+    "A equivalência varia por grupo. Exemplos: \n- 8h de monitoria = 1h ACC \n- 1h de curso = 1h ACC \n- 1 mês de estágio = 10h ACC \nConsulte a tabela completa no Anexo C da Resolução CCET 01/2023."
+  ],
+},
+
+// 27. ATIVIDADES EM EAD
+ead_acc: {
+  patterns: [
+    "Cursos EAD têm menos valor para ACC?",
+    "Como registrar curso online?",
+    "A distância reduz as horas válidas?"
+  ],
+  responses: [
+    "Cursos EAD têm peso menor: \n- Síncronos (ao vivo): 1h = 1h ACC (15% do total) \n- Assíncronos: 1h = 1h ACC (10% do total) \nDocumentos necessários: certificado com código de verificação."
+  ],
+},
+
+// 28. PROJETOS DE ENSINO
+projetos_ensino_acc: {
+  patterns: [
+    "Desenvolver material didático vale ACC?",
+    "Criação de apostila conta como atividade?",
+    "Elaborar exercícios para disciplina é ACC?"
+  ],
+  responses: [
+    "Sim, produção de recursos didáticos vale **30h de ACC por projeto** (Grupo 1). Requer: \n- Relatório técnico \n- Aprovação do docente responsável \n- Comprovação de uso em disciplina."
+  ],
+},
+
+// 29. VALIDAÇÃO DE PUBLICAÇÕES
+validacao_publicacoes_acc: {
+  patterns: [
+    "Como comprovar artigo publicado?",
+    "Precisa do DOI para publicações?",
+    "Revista não indexada vale como ACC?"
+  ],
+  responses: [
+    "Para publicações: \n- Artigos: envie PDF com página editorial (ISSN/DOI) \n- Livros: capa e página com ISBN \n- Anais: comprovante de aceite \nRevistas não indexadas podem valer se tiverem comitê editorial."
+  ],
+},
+
+// 30. EVENTOS CIENTÍFICOS
+eventos_cientificos_acc: {
+  patterns: [
+    "Participar como ouvinte em congresso vale?",
+    "Seminário acadêmico conta como ACC?",
+    "Workshop de pesquisa é atividade complementar?"
+  ],
+  responses: [
+    "Sim, como ouvinte: \n- 1h de evento = 1h ACC (Grupo 1) \nMáximo 30% do total. Comprove com: \n- Certificado \n- Programa do evento \n- Comprovante de inscrição."
+  ],
+},
+
+// 31. ATIVIDADES ARTÍSTICAS
+atividades_artisticas_acc: {
+  patterns: [
+    "Exposição de arte vale ACC?",
+    "Apresentação musical conta como atividade?",
+    "Participar de coral universitário é ACC?"
+  ],
+  responses: [
+    "Atividades artísticas valem: \n- Apresentação: 2h ACC \n- Organização: 2h/5h trabalhadas \nComprove com: \n- Programação do evento \n- Declaração do orientador \n- Registros fotográficos."
+  ],
+},
+
+// 32. COMPETIÇÕES ACADÊMICAS
+competicoes_academicas_acc: {
+  patterns: [
+    "Participar de olimpíada do conhecimento vale?",
+    "Maratona de programação conta como ACC?",
+    "Competição de robótica é atividade complementar?"
+  ],
+  responses: [
+    "Sim, competições valem: \n- Participação: 5h ACC \n- Premiação: +10h ACC \nDocumentos: \n- Certificado \n- Resultado oficial \n- Relatório técnico (se for projeto)."
+  ],
+},
+
+// 33. CURSOS TÉCNICOS
+cursos_tecnicos_acc: {
+  patterns: [
+    "Curso técnico paralelo vale ACC?",
+    "Senai/Senac conta como atividade complementar?",
+    "Certificado de qualificação profissional é ACC?"
+  ],
+  responses: [
+    "Cursos técnicos são válidos se: \n- Relacionados à sua área \n- Carga mínima de 20h \n- Realizados durante a graduação \nEnvie: certificado com ementa e CNPJ da instituição."
+  ],
+},
+
+// 34. VOLUNTARIADO INTERNACIONAL
+voluntariado_internacional_acc: {
+  patterns: [
+    "Trabalho voluntário no exterior vale ACC?",
+    "Como comprovar atividade humanitária fora do país?",
+    "Intercâmbio social conta como ACC?"
+  ],
+  responses: [
+    "Sim, valem **5h de ACC por atividade** (Grupo 7). Documentos: \n- Certificado da organização \n- Relatório de atividades \n- Visto/Passagem (opcional). \nObs.: Atividades religiosas não são aceitas."
+  ],
+},
+
+// 35. PALESTRAS E WORKSHOPS
+palestras_workshops_acc: {
+  patterns: [
+    "Ministrar palestra vale ACC?",
+    "Dar workshop conta como atividade?",
+    "Ouvir palestra é ACC?"
+  ],
+  responses: [
+    "Sim: \n- Ouvinte: 1h = 1h ACC (Grupo 1) \n- Palestrante: 5h ACC por atividade (Grupo 2) \nComprove com: \n- Programa do evento \n- Declaração da organização \n- Slide da apresentação (se palestrante)."
+  ],
+},
+
+// 36. ATIVIDADES CORPORATIVAS
+atividades_corporativas_acc: {
+  patterns: [
+    "Participar de RH Day vale ACC?",
+    "Evento corporativo conta como complementar?",
+    "Visita a empresa é atividade ACC?"
+  ],
+  responses: [
+    "Atividades corporativas valem se: \n- Tiverem conteúdo educacional \n- Duração mínima de 4h \nComprove com: \n- Certificado \n- CNPJ da empresa \n- Relatório de aprendizados."
+  ],
+},
+
+// 37. PROJETOS COMUNITÁRIOS
+projetos_comunitarios_acc: {
+  patterns: [
+    "Projeto em comunidade carente vale ACC?",
+    "Trabalho em ONG conta como atividade?",
+    "Ação social esporádica é ACC?"
+  ],
+  responses: [
+    "Sim, valem **5h de ACC por atividade** (Grupo 3 ou 7). Documentos: \n- Declaração da instituição \n- Relatório fotográfico \n- Lista de beneficiários (se aplicável)."
+  ],
+},
+
+// 38. INICIAÇÃO PROFISSIONAL
+iniciacao_profissional_acc: {
+  patterns: [
+    "Programa de trainee vale ACC?",
+    "Como registrar startup school?",
+    "Academia de jovens talentos conta?"
+  ],
+  responses: [
+    "Programas de iniciação profissional valem **5h de ACC por mês** (Grupo 5). Comprove com: \n- Contrato/termo de adesão \n- Relatório mensal \n- Avaliação do orientador."
+  ],
+},
+
+// 39. ATIVIDADES CULTURAIS
+atividades_culturais_acc: {
+  patterns: [
+    "Visita a museu vale ACC?",
+    "Participar de cineclube conta?",
+    "Clube de leitura é atividade complementar?"
+  ],
+  responses: [
+    "Atividades culturais sistemáticas valem: \n- 1h ACC por visita/evento (máx. 10%) \n- 5h ACC por organização \nComprove com: \n- Ingressos \n- Lista de presença \n- Relatório crítico (opcional)."
+  ],
+},
+
+// 40. REPRESENTAÇÃO ACADÊMICA
+representacao_academica_acc: {
+  patterns: [
+    "Representar curso em feira profissional vale ACC?",
+    "Ser embaixador universitário conta?",
+    "Participar de banca examinadora é ACC?"
+  ],
+  responses: [
+    "Sim, representação institucional vale **5h de ACC por evento** (Grupo 4). Documentos: \n- Designação por portaria \n- Relatório de atividades \n- Comprovante de participação."
+  ],
+},
+
+// 41. INTERCÂMBIO CULTURAL
+intercambio_cultural_acc: {
+  patterns: [
+    "Intercâmbio vale como ACC?",
+    "Como registrar mobilidade acadêmica?",
+    "Programa de verão no exterior conta?"
+  ],
+  responses: [
+    "Intercâmbios valem **5h de ACC para cada 15h de atividade** (Grupo 1). Comprove com: \n- Termo de mobilidade \n- Histórico parcial \n- Relatório de atividades."
+  ],
+},
+
+// 42. MONITORIAS NÃO FORMAIS
+monitorias_informais_acc: {
+  patterns: [
+    "Ajudar colegas sem ser monitor oficial vale ACC?",
+    "Plantão de dúvidas não institucionalizado conta?",
+    "Monitoria voluntária é ACC?"
+  ],
+  responses: [
+    "Só monitorias formais (com designação da instituição) são válidas. Atividades informais não são aceitas como ACC."
+  ],
+},
+
+// 43. ATIVIDADES ESPORTIVAS
+atividades_esportivas_acc: {
+  patterns: [
+    "Participar de time universitário vale ACC?",
+    "Maratona esportiva conta como atividade?",
+    "Competir por atlética é ACC?"
+  ],
+  responses: [
+    "Atividades esportivas organizadas valem: \n- Atleta: 1h ACC para cada 5h de treino \n- Organizador: 2h ACC para cada 5h trabalhadas \nMáximo 20% do total."
+  ],
+},
+
+// 44. PRODUÇÃO TÉCNICA
+producao_tecnica_acc: {
+  patterns: [
+    "Desenvolver software vale ACC?",
+    "Criação de protótipo conta como atividade?",
+    "Manual técnico é ACC?"
+  ],
+  responses: [
+    "Produções técnicas valem **10h a 30h de ACC** (Grupo 2). Comprove com: \n- Código-fonte (GitHub) \n- Relatório técnico \n- Declaração de uso (se aplicável)."
+  ],
+},
+
+// 45. FEIRAS PROFISSIONAIS
+feiras_profissionais_acc: {
+  patterns: [
+    "Expor em feira de profissões vale ACC?",
+    "Visitar feira de estágios conta?",
+    "Participar de career day é atividade?"
+  ],
+  responses: [
+    "Como expositor: **5h ACC por dia** (Grupo 5). Como visitante: não vale ACC. Comprove com crachá e declaração da organização."
+  ],
+},
+
+// 46. ATIVIDADES DE INOVAÇÃO
+inovacao_acc: {
+  patterns: [
+    "Participar de hackday vale ACC?",
+    "Como registrar ideação de startup?",
+    "Desafio de criatividade conta?"
+  ],
+  responses: [
+    "Atividades de inovação valem **5h de ACC por evento** (Grupo 2 ou 5). Comprove com: \n- Certificado \n- Pitch deck \n- Protótipo (se houver)."
+  ],
+},
+
+// 47. PARTICIPAÇÃO EM EDITAIS
+editais_acc: {
+  patterns: [
+    "Escrever projeto para edital vale ACC?",
+    "Submeter trabalho em chamada pública conta?",
+    "Como registrar proposta não aprovada?"
+  ],
+  responses: [
+    "Sim, elaboração de propostas vale **5h de ACC por edital** (Grupo 2). Comprove com: \n- Comprovante de submissão \n- Cópia da proposta \n- Feedback (se disponível)."
+  ],
+},
+
+// 48. ATIVIDADES DE INCLUSÃO
+inclusao_acc: {
+  patterns: [
+    "Trabalhar com educação especial vale ACC?",
+    "Projeto para surdos conta como atividade?",
+    "Oficina em braile é ACC?"
+  ],
+  responses: [
+    "Atividades de inclusão valem **5h de ACC por ação** (Grupo 7). Documentos: \n- Relatório de impacto \n- Depoimentos (opcional) \n- Materiais adaptados."
+  ],
+},
+
+// 49. PROJETOS INTERDISCIPLINARES
+interdisciplinares_acc: {
+  patterns: [
+    "Projeto que une várias áreas vale ACC?",
+    "Como registrar atividade multidisciplinar?",
+    "Trabalho com alunos de outros cursos conta?"
+  ],
+  responses: [
+    "Sim, projetos interdisciplinares valem **5h de ACC por semestre** (Grupo 6). Comprove com: \n- Relatório conjunto \n- Declaração dos orientadores \n- Resultados alcançados."
+  ],
+},
+
+// 50. CERTIFICADOS
+certificados_acc: {
+  patterns: [
+    "Certificado sem carga horária vale?",
+    "O que fazer se o documento não tem horas?",
+    "Declaração sem especificação é aceita?"
+  ],
+  responses: [
+    "Certificados sem carga horária podem ser recusados. Soluções: \n1. Solicitar retificação ao emissor \n2. Anexar programa do evento com horas \n3. Apresentar cálculo justificado (aprovado pela coordenação)."
+  ],
+},
+
+  // 51. ATIVIDADES DE EMPREENDEDORISMO
+empreendedorismo_acc: {
+  patterns: [
+    "Participar de startup weekend vale ACC?",
+    "Como registrar meu negócio como ACC?",
+    "Competição de pitch conta como atividade?"
+  ],
+  responses: [
+    "Atividades de empreendedorismo valem **5h de ACC por evento** (Grupo 5). Comprove com: \n- Certificado de participação \n- Business plan \n- Comprovante de CNPJ (se aplicável)"
+  ],
+},
+
+// 52. ATIVIDADES AMBIENTAIS
+atividades_ambientais_acc: {
+  patterns: [
+    "Projeto de reciclagem vale ACC?",
+    "Como registrar mutirão ecológico?",
+    "Plantio de árvores conta como ACC?"
+  ],
+  responses: [
+    "Atividades ambientais valem **5h de ACC por ação** (Grupo 3 ou 7). Documentos: \n- Declaração da organização \n- Registro fotográfico \n- Relatório de impacto (ex: kg de resíduos coletados)"
+  ],
+},
+
+// 53. ATIVIDADES DE SAÚDE
+atividades_saude_acc: {
+  patterns: [
+    "Campanha de doação de sangue vale ACC?",
+    "Participar de ação de saúde bucal conta?",
+    "Como registrar palestra sobre prevenção?"
+  ],
+  responses: [
+    "Ações de saúde valem **5h de ACC por atividade** (Grupo 3). Comprove com: \n- Declaração da unidade de saúde \n- Lista de atendimentos \n- Material educativo produzido"
+  ],
+},
+
+// 54. MINICURSOS
+minicursos_acc: {
+  patterns: [
+    "Ministrar minicurso vale ACC?",
+    "Como registrar oficina que eu dei?",
+    "Curso rápido conta como atividade?"
+  ],
+  responses: [
+    "Minicursos valem: \n- Como participante: 1h = 1h ACC \n- Como ministrante: 5h ACC por atividade \nDocumentos: programa do curso e lista de presença."
+  ],
+},
+
+// 55. ATIVIDADES DE DIREITO
+atividades_direito_acc: {
+  patterns: [
+    "Participar de júri simulado vale ACC?",
+    "Como registrar atendimento jurídico?",
+    "Visita a tribunal conta como ACC?"
+  ],
+  responses: [
+    "Atividades jurídicas valem **5h de ACC por ação** (Grupo 5). Comprove com: \n- Certificado da OAB (se aplicável) \n- Relatório de atividades \n- Termo de comparecimento"
+  ],
+},
+
+// 56. ATIVIDADES DE ENGENHARIA
+atividades_engenharia_acc: {
+  patterns: [
+    "Visita técnica a obra vale ACC?",
+    "Como registrar protótipo de engenharia?",
+    "Competição de ponte de espaguete conta?"
+  ],
+  responses: [
+    "Atividades específicas de engenharia valem **5h a 30h de ACC** (Grupo 2 ou 5). Comprove com: \n- Relatório técnico \n- Fotos do projeto \n- Declaração do professor orientador"
+  ],
+},
+
+// 57. ATIVIDADES DE COMPUTAÇÃO
+atividades_computacao_acc: {
+  patterns: [
+    "Maratona de programação vale ACC?",
+    "Como registrar desenvolvimento de app?",
+    "Contribuir em open source conta?"
+  ],
+  responses: [
+    "Atividades de TI valem: \n- Competições: 5h ACC \n- Projetos: 10h a 30h ACC \nComprove com: \n- Print de repositório GitHub \n- Certificado de participação \n- Demonstração do software"
+  ],
+},
+
+// 58. ATIVIDADES DE AGRONOMIA
+atividades_agronomia_acc: {
+  patterns: [
+    "Dia de campo vale ACC?",
+    "Como registrar análise de solo?",
+    "Projeto com produtores rurais conta?"
+  ],
+  responses: [
+    "Atividades agropecuárias valem **5h de ACC por ação** (Grupo 5). Comprove com: \n- Relatório técnico \n- Termo de cooperação \n- Registros fotográficos"
+  ],
+},
+
+// 59. ATIVIDADES DE PSICOLOGIA
+atividades_psicologia_acc: {
+  patterns: [
+    "Grupo de apoio psicológico vale ACC?",
+    "Como registrar plantão de escuta?",
+    "Oficina sobre saúde mental conta?"
+  ],
+  responses: [
+    "Atividades psicológicas valem **5h de ACC por projeto** (Grupo 3). Documentos: \n- Termo de confidencialidade \n- Relatório sem dados sensíveis \n- Declaração da instituição parceira"
+  ],
+},
+
+// 60. ATIVIDADES DE ARQUITETURA
+atividades_arquitetura_acc: {
+  patterns: [
+    "Projeto de reforma comunitária vale ACC?",
+    "Como registrar maquete arquitetônica?",
+    "Visita a canteiro de obras conta?"
+  ],
+  responses: [
+    "Atividades de arquitetura valem: \n- Projetos: 30h ACC \n- Visitas: 5h ACC \nComprove com: \n- Plantas assinadas \n- ART (se aplicável) \n- Relatório de visita"
+  ],
+},
+
+// 61. ATIVIDADES DE MEDICINA
+atividades_medicina_acc: {
+  patterns: [
+    "Campanha de vacinação vale ACC?",
+    "Como registrar liga acadêmica médica?",
+    "Participar de simpósio médico conta?"
+  ],
+  responses: [
+    "Atividades médicas valem **5h a 10h de ACC** (Grupo 2 ou 3). Documentos: \n- Declaração do coordenador \n- Certificado de participação \n- Relatório (sem dados de pacientes)"
+  ],
+},
+
+// 62. ATIVIDADES DE EDUCAÇÃO FÍSICA
+atividades_edfisica_acc: {
+  patterns: [
+    "Organizar torneio esportivo vale ACC?",
+    "Como registrar aula para terceira idade?",
+    "Projeto de inclusão esportiva conta?"
+  ],
+  responses: [
+    "Atividades esportivas valem **5h de ACC por ação** (Grupo 7). Comprove com: \n- Planos de aula \n- Listas de presença \n- Avaliação física (se aplicável)"
+  ],
+},
+
+// 63. ATIVIDADES DE NUTRIÇÃO
+atividades_nutricao_acc: {
+  patterns: [
+    "Feira de alimentação saudável vale ACC?",
+    "Como registrar avaliação nutricional?",
+    "Oficina de culinária funcional conta?"
+  ],
+  responses: [
+    "Atividades de nutrição valem **5h de ACC por projeto** (Grupo 3). Documentos: \n- Ficha nutricional (sem dados pessoais) \n- Receitas desenvolvidas \n- Relatório de impacto"
+  ],
+},
+
+// 64. ATIVIDADES DE VETERINÁRIA
+atividades_veterinaria_acc: {
+  patterns: [
+    "Campanha de castração vale ACC?",
+    "Como registrar atendimento clínico?",
+    "Participar de feira de adoção conta?"
+  ],
+  responses: [
+    "Atividades veterinárias valem **5h de ACC por ação** (Grupo 3). Comprove com: \n- Termo de estágio (se aplicável) \n- Relatório de procedimentos \n- Declaração do CRMV"
+  ],
+},
+
+// 65. ATIVIDADES DE JORNALISMO
+atividades_jornalismo_acc: {
+  patterns: [
+    "Produzir jornal comunitário vale ACC?",
+    "Como registrar reportagem universitária?",
+    "Blog acadêmico conta como ACC?"
+  ],
+  responses: [
+    "Produções jornalísticas valem: \n- Matérias: 10h ACC \n- Projetos editoriais: 30h ACC \nComprove com: \n- Links/publicações \n- Declaração do orientador \n- Portfólio digital"
+  ],
+},
+
+// 66. ATIVIDADES DE MODA
+atividades_moda_acc: {
+  patterns: [
+    "Desfile beneficente vale ACC?",
+    "Como registrar coleção acadêmica?",
+    "Oficina de upcycling conta?"
+  ],
+  responses: [
+    "Atividades de moda valem **5h a 30h de ACC** (Grupo 7). Documentos: \n- Catálogo da coleção \n- Registros fotográficos \n- Declaração de participação"
+  ],
+},
+
+// 67. ATIVIDADES DE GASTRONOMIA
+atividades_gastronomia_acc: {
+  patterns: [
+    "Evento gastronômico solidário vale ACC?",
+    "Como registrar desenvolvimento de receita?",
+    "Degustação comentada conta?"
+  ],
+  responses: [
+    "Atividades gastronômicas valem **5h de ACC por ação** (Grupo 7). Comprove com: \n- Ficha técnica \n- Fotos dos pratos \n- Relatório de avaliação sensorial"
+  ],
+},
+
+// 68. ATIVIDADES DE FARMÁCIA
+atividades_farmacia_acc: {
+  patterns: [
+    "Campanha de descarte de medicamentos vale ACC?",
+    "Como registrar análise de fitoterápicos?",
+    "Feira sobre automedicação conta?"
+  ],
+  responses: [
+    "Atividades farmacêuticas valem **5h de ACC por projeto** (Grupo 3). Documentos: \n- Termo de coleta (se aplicável) \n- Relatório técnico \n- Material educativo produzido"
+  ],
+},
+
+// 69. ATIVIDADES DE TURISMO
+atividades_turismo_acc: {
+  patterns: [
+    "Roteiro turístico cultural vale ACC?",
+    "Como registrar guia de patrimônio?",
+    "Projeto de turismo comunitário conta?"
+  ],
+  responses: [
+    "Atividades turísticas valem **5h a 20h de ACC** (Grupo 5 ou 7). Comprove com: \n- Roteiro detalhado \n- Depoimentos de participantes \n- Registros fotográficos"
+  ],
+},
+
+// 70. ATIVIDADES INTERNACIONAIS VIRTUAIS
+internacionais_virtuais_acc: {
+  patterns: [
+    "Evento online internacional vale ACC?",
+    "Como registrar palestra com professor estrangeiro?",
+    "Congresso virtual no exterior conta?"
+  ],
+  responses: [
+    "Atividades internacionais remotas valem: \n- 1h = 1h ACC (como ouvinte) \n- 5h ACC (como apresentador) \nDocumentos: \n- Certificado digital \n- Programa em inglês/português \n- Comprovante de inscrição"
+  ],
+},
   
   
   despedida: {
