@@ -1077,7 +1077,7 @@ povos_tradicionais_acc: {
 },
 
 // 28. Acessibilidade
-acessibilidade_acc: {
+acessibilidade_acc1: {
   patterns: [
     "Projeto para PCDs vale ACC?",
     "Onde registrar ação inclusiva?",
