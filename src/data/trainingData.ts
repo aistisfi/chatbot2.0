@@ -3474,6 +3474,77 @@ internacionais_virtuais_acc: {
     "Atividades internacionais remotas valem: \n- 1h = 1h ACC (como ouvinte) \n- 5h ACC (como apresentador) \nDocumentos: \n- Certificado digital \n- Programa em inglês/português \n- Comprovante de inscrição"
   ],
 },
+  // 1. OBRIGATORIEDADE
+obrigatoriedade_acc: {
+  patterns: [
+    "ACC é obrigatório?",
+    "Preciso fazer atividades complementares?",
+    "É obrigatório cumprir as ACCs?"
+  ],
+  responses: [
+    "Sim, as ACCs são **obrigatórias** conforme o Art. 2º do Regulamento de ACC da UFOB. Você precisa completar 60 horas para colar grau."
+  ],
+},
+
+// 2. CONSEQUÊNCIAS DE NÃO CUMPRIR
+nao_cumprimento_acc: {
+  patterns: [
+    "E se eu não fizer?",
+    "O que acontece se não cumprir as ACCs?",
+    "Posso me formar sem ACC?"
+  ],
+  responses: [
+    "Sem as 60 horas de ACC, você **não poderá colar grau** (Art. 3º). A coordenação pode propor um plano excepcional em casos justificados, mediante análise."
+  ],
+},
+
+// 3. LOCAL DE ENVIO
+envio_horas_acc: {
+  patterns: [
+    "Onde enviar as horas de ACC?",
+    "Qual sistema registro minhas ACCs?",
+    "Para quem mando os comprovantes?"
+  ],
+  responses: [
+    "Envie pelo **SIGAA**: \n1. Acesse 'Atividades Complementares' \n2. Selecione 'Lançamento de ACC' \n3. Anexe os documentos \n4. Escolha o grupo correspondente \nA análise é feita pela coordenação do seu curso."
+  ],
+},
+
+// 4. LIMITE DE HORAS
+limite_horas_acc: {
+  patterns: [
+    "Há um limite de horas por atividade?",
+    "Quantas horas posso colocar em um projeto?",
+    "Tem teto por tipo de atividade?"
+  ],
+  responses: [
+    "Sim, cada grupo tem limites (ex: máximo 60% em pesquisa). Consulte o Barema no Anexo C da Resolução CCET 01/2023. Exemplos: \n- Estágio: 10h/mês (30% do total) \n- Artigo: 30h (60% do total)"
+  ],
+},
+
+// 5. COLEGIADO
+colegiado_acc: {
+  patterns: [
+    "Participar do colegiado vale ACC?",
+    "Ser representante de turma conta como ACC?",
+    "Membro de conselho acadêmico é ACC?"
+  ],
+  responses: [
+    "Sim, representaçao em colegiados vale **5h de ACC por mês** (Grupo 4 - Representação Estudantil), até 40% do total. Comprove com ata de posse ou portaria de nomeação."
+  ],
+},
+
+// 6. PRAZO FINAL
+prazo_final_acc: {
+  patterns: [
+    "E se eu não cumprir horas de ACCs?",
+    "Não completei as 60 horas, e agora?",
+    "Posso me formar com ACC pendente?"
+  ],
+  responses: [
+    "Você terá que: \n1. Solicitar prorrogação à coordenação \n2. Completar as horas faltantes \n3. Só então solicitar colação de grau. Casos não resolvidos podem levar a trancamento de matrícula (Art. 6º, §7º)."
+  ],
+},
   
   
   despedida: {
