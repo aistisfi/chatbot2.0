@@ -1964,7 +1964,7 @@ mentoria_acc: {
 },
 
 // 12. Projetos Comunitários Integrados
-projetos_comunitarios_acc: {
+projetos_comunitarios_acc1: {
   patterns: [
     "Projeto social que integra ensino e pesquisa vale ACC?",
     "Onde registrar ação comunitária interdisciplinar?",
