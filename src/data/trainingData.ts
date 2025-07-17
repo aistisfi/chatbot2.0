@@ -945,7 +945,7 @@ direitos_humanos_acc: {
 },
 
 // 17. Tecnologia social
-tecnologia_social_acc: {
+tecnologia_social_acc1: {
   patterns: [
     "Desenvolvimento de tecnologia social vale ACC?",
     "Onde registrar solução comunitária?",
