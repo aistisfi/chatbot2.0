@@ -3176,7 +3176,7 @@ feiras_profissionais_acc: {
 },
 
 // 46. ATIVIDADES DE INOVAÇÃO
-inovacao_acc: {
+inovacao_acc2: {
   patterns: [
     "Participar de hackday vale ACC?",
     "Como registrar ideação de startup?",
