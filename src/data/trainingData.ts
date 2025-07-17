@@ -3200,7 +3200,7 @@ editais_acc: {
 },
 
 // 48. ATIVIDADES DE INCLUSÃO
-inclusao_acc: {
+inclusao_acc2: {
   patterns: [
     "Trabalhar com educação especial vale ACC?",
     "Projeto para surdos conta como atividade?",
