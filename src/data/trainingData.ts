@@ -1017,7 +1017,7 @@ moradia_digna_acc: {
 },
 
 // 23. Inclusão digital
-inclusao_digital_acc: {
+inclusao_digital_acc1: {
   patterns: [
     "Oficina de informática vale ACC?",
     "Onde registrar curso de computação?",
