@@ -2492,7 +2492,7 @@ esporte_comunitario_acc: {
 },
 
 // 26. Cultura Popular
-cultura_popular_acc: {
+cultura_popular_acc1: {
   patterns: [
     "Resgatar cultura tradicional vale ACC?",
     "Onde registrar minha pesquisa sobre folclore?",
